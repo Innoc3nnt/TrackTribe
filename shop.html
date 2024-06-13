@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <div class="header">
+        <a href="index.html"><img src="img/logo.png"></a>
+        <a href="about.html"><h1>О нас</h1></a>
+        <a href="tours.html"><h1>Туры</h1></a>
+        <a href="" class="active"><h1>Магазин</h1></a>
+        <a href="#contacts" class="contacts"><h1>Контакты</h1></a>
+    </div>
+    <div class="hero">
+        <h1>Наш магазин</h1>
+        <p>Помимо различных направлений для путешествий наша компания разработала собственную линейку <br>
+            походной атрибутики, а также небольших приятностей, которые позволят и в повседневной жизни <br>
+            вспоминать о пройденном с нами маршруте.</p>
+    </div>
+    <div class="shadow" id="shadow"></div>
+
+    <div class="shop-card" id="palatka">
+        <img src="img/cross.png" alt="" class="close" onclick="cls('palatka')">
+        <img src="img/wap.png" alt="" class="disk">
+        <img src="img/wap.png" alt="" class="disk1">
+        <img src="img/111.png" alt="">
+        <div class="desc">
+            <h1>Палатка</h1>
+            <p>Ультралегкая двухместная всесезонная<br>
+                палатка с проклеенными швами<br>
+                на несущем каркасе.</p>
+            <ul>
+                <li>Вес:  2,7/3,2 кг</li>
+                <li>Вход спального отделения продублирован москитной сеткой</li>
+                <li>Увеличенный тамбур, два вентиляционных клапана</li>
+                <li>Идеальна для туристических походов в весеннее, летнее и осеннее время</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="shop-card" id="meshok">
+        <img src="img/cross.png" alt="" class="close" onclick="cls('meshok')">
+        <img src="img/wap.png" alt="" class="disk">
+        <img src="img/wap.png" alt="" class="disk1">
+        <img src="img/112.png" alt="">
+        <div class="desc">
+            <h1>Спальный мешок</h1>
+            <p>Практичный 3-сезонный спальник-одеяло пригодится для отдыха на природе. Модель рекомендована для использования при температуре от +20 до +10 °С.
+                Форма кокон
+                Бесшовная конструкция
+                Двухсторонняя молния предотвращает заедание
+                Карман для ценных вещей</p>
+            <ul>
+                <li>Форма кокон</li>
+                <li>Бесшовная конструкция</li>
+                <li>Двухсторонняя молния предотвращает заедание</li>
+                <li>Карман для ценных вещей</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="shop-card" id="backpack">
+        <img src="img/cross.png" alt="" class="close" onclick="cls('backpack')">
+        <img src="img/wap.png" alt="" class="disk">
+        <img src="img/wap.png" alt="" class="disk1">
+        <img src="img/113.png" alt="">
+        <div class="desc">
+            <h1>Рюкзак</h1>
+            <p>Лёгкий треккинговый рюкзак для многодневных походов и треккинга из лёгкой и прочной ткани нейлон с усиленным дном.</p>
+            <ul>
+                <li>Регулируемые плечевые лямки из пеноматериала EVA</li>
+                <li>Высота спинки 60 см.</li>
+                <li>Грузоподъемность 15-25 кг</li>
+                <li>Объем: 64 л.</li>
+                <li>Вес: 1,99 кг</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="shop-card" id="panama">
+        <img src="img/cross.png" alt="" class="close" onclick="cls('panama')">
+        <img src="img/wap.png" alt="" class="disk">
+        <img src="img/wap.png" alt="" class="disk1">
+        <img src="img/114.png" alt="">
+        <div class="desc">
+            <h1>Панама</h1>
+            <p>Панама - это надежное и стильное решение для защиты головы от солнца и комфорта во время активного отдыха на свежем воздухе.
+                Панама выполнена из прочного материала, который обеспечивает защиту от УФ-лучей и высокую износостойкость.</p>
+        </div>
+    </div>
+
+    <div class="shop-card" id="socks">
+        <img src="img/cross.png" alt="" class="close" onclick="cls('socks')">
+        <img src="img/wap.png" alt="" class="disk">
+        <img src="img/wap.png" alt="" class="disk1">
+        <img src="img/115.png" alt="">
+        <div class="desc">
+            <h1>Носки</h1>
+            <p>Облегченные трекинговые носки повышенной износостойкости с большим содержанием полиамида, адаптированные для использования с тактической обувью.</p>
+            <ul>
+                <li>Оптимальная длина под ботинки с высоким берцем</li>
+                <li>Повышенная износостойкость</li>
+                <li>Увеличенный тамбур, два вентиляционных клапана</li>
+                <li>Зона с  содержанием эластичного материала не позволяет носку сползать и собираться в складки</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="shop-card" id="bag">
+        <img src="img/cross.png" alt="" class="close" onclick="cls('bag')">
+        <img src="img/wap.png" alt="" class="disk">
+        <img src="img/wap.png" alt="" class="disk1">
+        <img src="img/116.png" alt="">
+        <div class="desc">
+            <h1>Сумка поясная</h1>
+            <p>Компактная поясная сумка для постоянного повседневного ношения.<br>
+                палатка с проклеенными швами<br>
+                на несущем каркасе.</p>
+            <ul>
+                <li>Основное отделение объемное, с полукруглым клапаном на молнии сверху</li>
+                <li>Внутри основного отделения карман на молнии и карабин-крючок для подвеса мелочей</li>
+                <li>Увеличенный тамбур, два вентиляционных клапана</li>
+                <li>Передний плоский карман на молнии для мелочей</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="shop-card" id="thermos">
+        <img src="img/cross.png" alt="" class="close" onclick="cls('thermos')">
+        <img src="img/wap.png" alt="" class="disk">
+        <img src="img/wap.png" alt="" class="disk1">
+        <img src="img/117.png" alt="">
+        <div class="desc">
+            <h1>Термос</h1>
+            <p>Небьющийся термос для еды и  напитков.<br>
+                палатка с проклеенными швами<br>
+                на несущем каркасе.</p>
+            <ul>
+                <li>Специальная нержавеющая сталь тип 304 18/8</li>
+                <li>Объём:  1800 мл</li>
+                <li>Металл:  967 г</li>
+                <li>Размер:  11,5×35 см</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="shop-card" id="patch">
+        <img src="img/cross.png" alt="" class="close" onclick="cls('patch')">
+        <img src="img/wap.png" alt="" class="disk">
+        <img src="img/wap.png" alt="" class="disk1">
+        <img src="img/118.png" alt="">
+        <div class="desc">
+            <h1>Нашивка</h1>
+            <p>Нашивка изготавливается на прочной износостойкой ткани габардин для украшения и персонализации ваших вещей.</p>
+            <ul>
+                <li>Размер: 90х75 мм</li>
+            </ul>
+        </div>
+    </div>
+
+
+    <div class="sec2">
+        <div class="highlight1">
+            <img onclick="opn('palatka')" src="img/111.png">
+            <img onclick="opn('meshok')" src="img/112.png">
+            <img onclick="opn('backpack')" src="img/113.png">
+            <img onclick="opn('panama')" src="img/114.png">
+            <img onclick="opn('socks')" src="img/115.png">
+            <img onclick="opn('bag')" src="img/116.png">
+            <img onclick="opn('thermos')" src="img/117.png">
+            <img onclick="opn('patch')" src="img/118.png">
+        </div>
+    </div>
+    
+    <div class="footer" id="contacts">
+        <div class="legend">
+            <a href="#"><img src="img/logo.png"></a>
+            <p>Походы и сплавы в Подмосковье.<br>
+                Путешествия по уголкам России.</p>
+        </div>
+        <div class="wrapper">
+            <div class="contact-info">
+                <h1>Контактная информация</h1>
+                <p>Московская область,<br>
+                    улица Лесная, 12 <br>
+                    +7-915-321-77-49<br>
+                    info.tracktribe@gmail.com</p>
+            </div>
+            <div class="social-media">
+                <a href="https://t.me/prpl_mn" target="_blank"><img src="img/tg.png"></a>
+                <a href="https://t.me/prpl_mn" target="_blank"><img src="img/wtsp.png"></a>
+                <a href="https://t.me/prpl_mn" target="_blank"><img src="img/inst.png"></a>
+                <a href="https://t.me/prpl_mn" target="_blank"><img src="img/tt.png"></a>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script>
+
+    function cls(idx){
+    document.getElementById(idx).style.opacity = "0";
+    document.getElementById(idx).style.visibility = "hidden";
+    document.getElementById('shadow').style.opacity = "0";
+    document.getElementById('shadow').style.visibility = "hidden";
+    }
+
+    function opn(idx){
+    document.getElementById(idx).style.visibility = "visible";
+    document.getElementById(idx).style.opacity = "100%";
+    document.getElementById('shadow').style.visibility = "visible";
+    document.getElementById('shadow').style.opacity = "0.5";
+    }
+
+</script>
+</html>
