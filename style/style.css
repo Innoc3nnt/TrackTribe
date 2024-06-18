@@ -63,6 +63,7 @@ a:hover{
     font-family: nevduplnenysh;
     font-size: 5rem;
     font-weight: 100;
+    margin-bottom: 30px;
 }
 
 .hero p{
@@ -88,6 +89,7 @@ a:hover{
     color: white;
     padding-top: 5%;
     margin-left: 10%;
+    margin-bottom: 0;
 }
 
 .cards{
@@ -101,7 +103,6 @@ a:hover{
 .card{
     position: relative;
     width: 33%;
-    height: min-content;
 }
 
 .card h1{
@@ -125,7 +126,7 @@ a:hover{
 .card img{
     filter: saturate(1);
     width: 100%;
-    height: 80%;
+    height: 800px;
     padding-bottom: 80px;
     transition: 0.7s ease-in-out;
 }
@@ -221,7 +222,7 @@ a:hover{
 }
 
 .highlight1{
-    padding: 10%;
+    padding: 5% 10% 5% 10%;
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto auto;
@@ -235,6 +236,10 @@ a:hover{
     cursor: pointer;
 }
 
+.highlight1 h1{
+    margin-bottom: 0;
+}
+
 .video{
     width: 100%;
     min-height: 70vh;
@@ -242,7 +247,7 @@ a:hover{
 }
 
 .highlight2{
-    padding: 5% 10% 5% 10%;
+    padding: 2% 10% 5% 10%;
     display: grid;
     grid-template-columns: auto auto auto;
     gap: 20px;
@@ -345,6 +350,7 @@ a:hover{
     font-family: nevduplnenysh;
     font-size: 5rem;
     font-weight: 100;
+    margin-bottom: 0;
 }
 
 .desc p{
